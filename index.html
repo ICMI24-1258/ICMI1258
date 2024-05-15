@@ -49,7 +49,7 @@
 	  <div class="container">
 		<div class="row align-items-center">
 		  <div class="col-md-12">
-			 <h1><a class="text-light"> test</a> </h1>
+			 <h1><a class="text-light"> Title</a> </h1>
 		  </div>
 		</div>
 	  </div>
@@ -58,9 +58,18 @@
 	<div class="container">
 
 		<img src="./data/model.png"  class="center" width="100%" / >
-		<p class="lead">=test</p>
-
-        =
+		<p class="lead">Recent advancements in <em>dynamic facial expression recognition</em> (DFER) have predominantly utilized static features, 
+			which are theoretically inferior to dynamic features. However, models fully trained with dynamic features often suffer from overfitting 
+			due to the limited size and diversity of the training data. A significant challenge with existing models based on static features in recognizing 
+			emotions from videos is their tendency to form biased representations, often unbalanced or skewed towards more prevalent or basic emotional features 
+			present in the static domain, especially with posed expression. Therefore, this approach under-represents the nuances present in the dynamic domain. 
+			To address this issue, our study introduces a novel approach that we refer to as <em>mixture of emotion-dependent experts</em> (MoEDE). This strategy relies 
+			on emotion-specific feature extractors to produce more diverse emotional static features to train DFER systems. Each emotion-dependent expert focuses 
+			exclusively on one emotional category, formulating the problem as binary classifiers. Our DFER model combines these static representations with recurrent 
+			models, modeling their temporal relationships. The proposed MoEDE DFER approach achieves a macro F1-score of 74.5%, marking a significant improvement 
+			over the baseline, which presented a macro F1-score of 70.9% using a single model trained on all classes in the AffectNet dataset. Additionally, our 
+			proposed approach shows consistent improvements compared to the four popular baselines. 
+		</p>
     </div>
 
     <!-- Bootstrap JS and dependencies -->
